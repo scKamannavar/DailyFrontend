@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        Garamond : ['EB Garamond', 'serif'],
+        Montser: ["Montserrat", "sans-serif"],
+        Outfit : ["Outfit", "sans-serif"],
+        Poppins : ["Poppins", "sans-serif"],
+        Cabin : ["Cabin", "sans-serif"],
+        DidactGothic : ["Didact Gothic", "sans-serif"]
+      },
+    },
   },
   plugins: [],
 }
