@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('./assets/fonts/Futura\ Light\ bt.ttf') format('truetype');
+    /* Add other font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -11,7 +11,7 @@ const data =[
     {
         heading : 'We’re passionate about what we do, but we’re equally passionate about improving who we are.',
         description : 'We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.',
-        npara : 'We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.'
+        npara : 'Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.'
     },
     {
         heading : 'We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.',

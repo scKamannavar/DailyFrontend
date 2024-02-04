@@ -12,7 +12,8 @@ export default {
         Outfit : ["Outfit", "sans-serif"],
         Poppins : ["Poppins", "sans-serif"],
         Cabin : ["Cabin", "sans-serif"],
-        DidactGothic : ["Didact Gothic", "sans-serif"]
+        DidactGothic : ["Didact Gothic", "sans-serif"],
+        futura: ['Futura', 'sans-serif'],
       },
     },
   },

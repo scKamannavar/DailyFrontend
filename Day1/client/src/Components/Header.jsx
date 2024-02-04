@@ -3,11 +3,14 @@ import React,{useState} from 'react'
 const Header = () => {
     const [more, setMore] = useState(false)
   return (
-    <div className='flex flex-col font-DidactGothic pt-6 '>
+    <div className='flex flex-col font-DidactGothic pt-6'>
      <div className='flex flex-col border-b-[3px] border-gray-200'>
         <div className='flex flex-row lg:pl-8'>
             <div id='logo 'className='ml-6 mr-8 mb-[20px]'>
                 <svg  aria-hidden="true" focusable="false" class="main-nav__logo__image" xmlns="http://www.w3.org/2000/svg" width="45" height="21" viewBox="0 0 45 21"><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
+            </div>
+            <div className='font-bold lg:hidden '> 
+                Menu ▼
             </div>
 
                 <div className='flex flex-1 flex-row hidden lg:flex '>
@@ -28,7 +31,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='flex pr-10 gap-6 text-xs lg:text-sm' >
-                        <div>
+                        <div className='text-blue-600'>
                             Try Live for free
                         </div>
                         <div>
@@ -98,7 +101,7 @@ const Header = () => {
         }
 
      </div>
-     <div className=' flex gap-[20px] pl-[20px] py-[28px] text-sm'>
+     <div className=' flex gap-[20px] pl-[20px] py-[28px] text-sm  top-0 sticky'>
             <h1>About</h1>
             <h1>Jobs</h1>
             <h1>Apprenticeships</h1>
