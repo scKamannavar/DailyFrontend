@@ -23,6 +23,8 @@ const Layout = () => {
     const cont6Ref = useRef(null);
     const cont7Ref = useRef(null);
 
+    const [currentissue, setCurrentissue] = useState('')
+
     const handleScroll = () => {
         const container = containerRef.current;
         const scrollY = container.scrollTop;
@@ -38,18 +40,25 @@ const Layout = () => {
 
        if (scrollY > cont7Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#E30512]');
+            setCurrentissue(7)
         } else if (scrollY > cont6Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#1D3FBB]');
+            setCurrentissue(6)
         } else if (scrollY > cont5Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#FFBE00]');
+            setCurrentissue(5)
         } else if (scrollY > cont4Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#FF6519]');
+            setCurrentissue(4)
         } else if (scrollY > cont3Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#00C1B5]');
+            setCurrentissue(3)
         } else if (scrollY > cont2Offset - screenHeight / 2) {
             setBackgroundColor('bg-white');
+            setCurrentissue(2)
         } else if (scrollY > cont1Offset - screenHeight / 2) {
             setBackgroundColor('bg-[#FF608C]');
+            setCurrentissue(1)
         } 
     };
 
